@@ -18,3 +18,8 @@ zuul:
       sensitive-headers: 'Cookie,Set-Cookie '
       service-id: auth-service
       strip-prefix: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
