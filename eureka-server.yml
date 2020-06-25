@@ -6,4 +6,4 @@ spring:
 eureka:
   client:
     fetch-registry: false
-    register-with-server: false
+    register-with-eureka: false
