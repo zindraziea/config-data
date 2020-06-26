@@ -18,6 +18,9 @@ zuul:
       sensitive-headers: 'Cookie,Set-Cookie '
       service-id: auth-service
       strip-prefix: false
+    customer-service:
+      path: /customer/**
+      service-id: customer-service
 management:
   endpoints:
     web:
